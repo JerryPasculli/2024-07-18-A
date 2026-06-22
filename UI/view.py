@@ -90,6 +90,7 @@ class View(ft.UserControl):
                       alignment=ft.MainAxisAlignment.SPACE_EVENLY,
                       spacing=50)
         self._page.controls.append(row2)
+        self._controller.popola()
         self._page.update()
 
     @property
